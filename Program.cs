@@ -9,6 +9,8 @@ class Program
 
         Console.WriteLine($"Hi, {name}! Nice to meet you.");
 
+        Console.WriteLine("Alayna also here, from class!");
+
         Console.WriteLine("What is your favorite hobby?");
         string hobby = Console.ReadLine().ToLower();
 
@@ -35,4 +37,5 @@ class Program
             Console.WriteLine($"Did you know that your name has {name.Length} letters?");
         }
     }
+
 }
